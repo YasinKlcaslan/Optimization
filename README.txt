@@ -1,39 +1,39 @@
-Optimization Algorithms Library
-This repository contains implementations of various optimization algorithms. Each algorithm is implemented in its own Python file. Below is a brief description of each file and the algorithm it contains.
+Optimizasyon Algoritmaları Kitaplığı
+Bu depo, çeşitli optimizasyon algoritmalarının uygulamalarını içerir. Her algoritma kendi Python dosyasında uygulanır. Aşağıda her dosyanın ve içerdiği algoritmanın kısa bir açıklaması bulunmaktadır.
 
-File Descriptions
+Dosya Açıklamaları
 
 AntColonyOptimizer.py
-This file contains the implementation of the Ant Colony Optimization (ACO) algorithm. ACO is a probabilistic technique for solving computational problems which can be reduced to finding good paths through graphs. It is inspired by the behavior of ants finding paths from their colony to food sources.
+Bu dosya, Karınca Kolonisi Optimizasyonu (ACO) algoritmasının uygulanmasını içerir. ACO, grafikler aracılığıyla iyi yollar bulmaya indirgenebilecek hesaplama problemlerini çözmeye yönelik olasılıksal bir tekniktir. Karıncaların kolonilerinden besin kaynaklarına giden yolları bulma davranışlarından ilham alıyor.
 
-ArtificialBeeColony.py
-This file implements the Artificial Bee Colony (ABC) algorithm. ABC is an optimization algorithm based on the intelligent foraging behavior of honey bee swarm. It is used for optimizing numerical problems and is inspired by the natural behavior of honey bees searching for food.
+YapayBeeColony.py
+Bu dosya Yapay Arı Kolonisi (ABC) algoritmasını uygular. ABC, bal arısı sürüsünün akıllı yiyecek arama davranışına dayanan bir optimizasyon algoritmasıdır. Sayısal problemleri optimize etmek için kullanılır ve yiyecek arayan bal arılarının doğal davranışlarından ilham alır.
 
 Crossover.py
-This file includes different crossover techniques used in genetic algorithms. Crossover is a genetic operator used to combine the genetic information of two parents to generate new offspring. Common techniques include one-point, two-point, and uniform crossover.
+Bu dosya genetik algoritmalarda kullanılan farklı çaprazlama tekniklerini içerir. Çaprazlama, yeni yavrular oluşturmak için iki ebeveynin genetik bilgilerini birleştiren bir genetik operatördür. Yaygın teknikler arasında tek noktalı, iki noktalı ve tekdüze geçiş bulunur.
 
 EdgeRecombination.py
-This file implements the Edge Recombination operator, which is used in genetic algorithms for problems like the Traveling Salesman Problem (TSP). This operator preserves the edges present in the parent solutions to form new offspring.
+Bu dosya, Gezgin Satıcı Problemi (TSP) gibi problemler için genetik algoritmalarda kullanılan Kenar Rekombinasyon operatörünü uygular. Bu operatör, yeni yavrular oluşturmak için ana çözümlerde bulunan kenarları korur.
 
-GeneticAlgorithm.py
-This file contains the implementation of a Genetic Algorithm (GA). GA is a metaheuristic inspired by the process of natural selection. It uses techniques such as selection, crossover, and mutation to evolve a population of candidate solutions towards an optimal solution.
+GenetikAlgoritma.py
+Bu dosya bir Genetik Algoritmanın (GA) uygulanmasını içerir. GA, doğal seçilim sürecinden ilham alan bir meta-sezgiseldir. Aday çözümlerden oluşan bir popülasyonu en uygun çözüme doğru geliştirmek için seçme, çaprazlama ve mutasyon gibi teknikleri kullanır.
 
 GreyWolfOptimizer.py
-This file implements the Grey Wolf Optimizer (GWO) algorithm. GWO is inspired by the social hierarchy and hunting behavior of grey wolves in nature. It is used for solving optimization problems by mimicking the leadership hierarchy and hunting mechanism of grey wolves.
+Bu dosya Gri Kurt Doktoru (GWO) algoritmasını uygular. GWO, gri kurtların doğadaki sosyal hiyerarşisinden ve avlanma davranışlarından ilham alıyor. Gri kurtların liderlik hiyerarşisini ve avlanma mekanizmasını taklit ederek optimizasyon problemlerini çözmek için kullanılır.
 
-Knapsack.py
-This file provides a solution to the Knapsack Problem using various optimization techniques. The Knapsack Problem is a combinatorial optimization problem where the goal is to maximize the total value of items placed in a knapsack without exceeding its capacity.
+Sırt çantası.py
+Bu dosya, çeşitli optimizasyon tekniklerini kullanarak Sırt Çantası Problemine bir çözüm sunar. Sırt Çantası Problemi, amacın bir sırt çantasına yerleştirilen öğelerin toplam değerini, kapasitesini aşmadan maksimuma çıkarmak olduğu kombinatoryal bir optimizasyon problemidir.
 
 SimulatedAnnealing.py
-This file contains the implementation of the Simulated Annealing (SA) algorithm. SA is a probabilistic technique for approximating the global optimum of a given function. It is inspired by the annealing process in metallurgy, a technique involving heating and controlled cooling of a material to increase the size of its crystals and reduce their defects.
+Bu dosya Simüle Tavlama (SA) algoritmasının uygulamasını içerir. SA, belirli bir fonksiyonun genel optimumuna yaklaşmak için olasılıksal bir tekniktir. Kristallerinin boyutunu artırmak ve kusurlarını azaltmak için bir malzemenin ısıtılmasını ve kontrollü soğutulmasını içeren bir teknik olan metalurjideki tavlama işleminden ilham almıştır.
 
-Getting Started
-To use any of these algorithms, simply import the corresponding file into your project. Each file includes detailed documentation and examples on how to use the implemented algorithm.
+Başlarken
+Bu algoritmalardan herhangi birini kullanmak için ilgili dosyayı projenize aktarmanız yeterlidir. Her dosya, uygulanan algoritmanın nasıl kullanılacağına ilişkin ayrıntılı belgeler ve örnekler içerir.
 
-Ensure you have the necessary dependency installed:
+Gerekli bağımlılığın kurulu olduğundan emin olun:
 
-NumPy
+NumPY
 
-You can install NumPy using pip:
+NumPy'yi pip kullanarak kurabilirsiniz:
 
-pip install numpy
+pip kurulumu numpy
